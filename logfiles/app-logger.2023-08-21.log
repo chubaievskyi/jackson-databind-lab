@@ -1,0 +1,10 @@
+21.08.2023 21:31:03.433 [main] INFO   com.shpp.mjava.pchubaievskyi.assignment1.App - Just a log message.
+21.08.2023 21:31:03.445 [main] DEBUG  com.shpp.mjava.pchubaievskyi.assignment1.App - Message for debug level.
+21.08.2023 21:31:03.739 [main] INFO   com.shpp.mjava.pchubaievskyi.assignment1.App - {
+  "message" : "Hello Джава"
+}
+21.08.2023 21:31:22.713 [main] INFO   com.shpp.mjava.pchubaievskyi.assignment1.App - Just a log message.
+21.08.2023 21:31:22.718 [main] DEBUG  com.shpp.mjava.pchubaievskyi.assignment1.App - Message for debug level.
+21.08.2023 21:31:22.921 [main] INFO   com.shpp.mjava.pchubaievskyi.assignment1.App - {
+  "message" : "Hello Джава"
+}
