@@ -23,26 +23,11 @@
       <version>4.13.1</version>
       <scope>test</scope>
     </dependency>
-
     <dependency>
       <groupId>ch.qos.logback</groupId>
       <artifactId>logback-classic</artifactId>
       <version>1.4.5</version>
     </dependency>
-
-<!--    <dependency>-->
-<!--      <groupId>org.slf4j</groupId>-->
-<!--      <artifactId>slf4j-api</artifactId>-->
-<!--      <version>2.0.4</version>-->
-<!--    </dependency>-->
-
-
-    <!--    <dependency>-->
-<!--      <groupId>com.fasterxml.jackson.core</groupId>-->
-<!--      <artifactId>jackson-databind</artifactId>-->
-<!--      <version>2.15.2</version>-->
-<!--    </dependency>-->
-
     <dependency>
       <groupId>com.fasterxml.jackson.dataformat</groupId>
       <artifactId>jackson-dataformat-xml</artifactId>
@@ -68,7 +53,7 @@
               </descriptorRefs>
               <archive>
                 <manifest>
-                  <mainClass>com.shpp.mjava.pchubaievskyi.assignment1.App</mainClass>
+                  <mainClass>com.chubaievskyi.App</mainClass>
                 </manifest>
               </archive>
             </configuration>
@@ -87,13 +72,11 @@
         <activeByDefault>false</activeByDefault>
       </activation>
     </profile>
-
     <!-- userProfile2: Build project as a Fat JAR using maven-shade-plugin -->
     <profile>
       <id>userProfile2</id>
       <build>
         <plugins>
-
           <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-shade-plugin</artifactId>
@@ -102,7 +85,7 @@
               <createDependencyReducedPom>false</createDependencyReducedPom>
               <transformers>
                 <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                  <mainClass>com.shpp.mjava.pchubaievskyi.assignment1.App</mainClass>
+                  <mainClass>com.chubaievskyi.App</mainClass>
                 </transformer>
               </transformers>
             </configuration>
@@ -122,5 +105,4 @@
       </activation>
     </profile>
   </profiles>
-
 </project>

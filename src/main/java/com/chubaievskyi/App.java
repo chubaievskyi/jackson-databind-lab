@@ -1,4 +1,4 @@
-package com.shpp.mjava.pchubaievskyi.assignment1;
+package com.chubaievskyi;
 
 import java.io.*;
 import java.nio.charset.StandardCharsets;
@@ -12,8 +12,8 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.dataformat.xml.XmlMapper;
 
 public class App {
+
     public static final Logger LOGGER = LoggerFactory.getLogger(App.class);
-//    private static final String JSON_FORMAT = "json";
     private static final String XML_FORMAT = "xml";
     private static final String OUTPUT_FORMAT = "outputFormat";
 
@@ -40,7 +40,6 @@ public class App {
             LOGGER.error("JsonProcessing failed", e);
         }
     }
-
 
     private static Properties readProperties(String filePath) {
         Properties properties = new Properties();
