@@ -23,3 +23,12 @@ S
 -.idea/sonarlint/securityhotspotstore/index.pb,8\8\88a9255124c95bdc913197c120a8d560edc59c8e
 G
 logfiles/app-logger.log,0\e\0e55c6fee0e48d99a21bea70cbe6595a9639aebf
+R
+"logfiles/app-logger.2023-08-21.log,5\e\5e3f028d0e444bba8f50b0b13df78b6c4f82b8f0
+R
+"logfiles/app-logger.2023-08-22.log,6\c\6c5b52b689f83e3e0f907c9f64b139ffdc280dcf
+R
+"logfiles/app-logger.2023-09-05.log,f\a\fad90d4a81163067ee7c38d0a9001dbc99652ba3
+:
+
+.gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302

@@ -1,5 +1,0 @@
-12.12.2023 20:35:33.032 [main] INFO   com.shpp.mjava.pchubaievskyi.assignment1.App - Just a log message.
-12.12.2023 20:35:33.044 [main] DEBUG  com.shpp.mjava.pchubaievskyi.assignment1.App - Message for debug level.
-12.12.2023 20:35:33.301 [main] INFO   com.shpp.mjava.pchubaievskyi.assignment1.App - {
-  "message" : "Hello Джава"
-}
